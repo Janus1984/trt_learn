@@ -1,0 +1,3 @@
+[submodule "trt-samples-for-hackathon-cn"]
+	path = trt-samples-for-hackathon-cn
+	url = https://github.com/NVIDIA/trt-samples-for-hackathon-cn.git
