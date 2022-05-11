@@ -11,11 +11,12 @@ from cuda import cudart
 import tensorrt as trt
 
 dataFilePath = "./data/"
-planFilePath   = "./"
+planFilePath   = "./models/"
+logFilePath = "./log/"
 encoderPlanFile  = planFilePath + "encoder.plan"
-encoderScoreFile = planFilePath + "encoderScore.txt"
+encoderScoreFile = logFilePath + "encoderScore.txt"
 decoderPlanFile  = planFilePath + "decoder.plan"
-decoderScoreFile = planFilePath + "decoderScore.txt"
+decoderScoreFile = logFilePath + "decoderScore.txt"
 soFileList = glob(planFilePath + "*.so")
 
 tableHead = \
