@@ -1,3 +1,6 @@
 [submodule "trt-samples-for-hackathon-cn"]
 	path = trt-samples-for-hackathon-cn
 	url = https://github.com/NVIDIA/trt-samples-for-hackathon-cn.git
+[submodule "trt2022_local/trt2022_local/wenet"]
+	path = trt2022_local/trt2022_local/wenet
+	url = https://github.com/wenet-e2e/wenet.git

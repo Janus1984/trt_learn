@@ -1,0 +1,8 @@
+[V] Loaded Module: polygraphy.util    | Path: ['/usr/local/lib/python3.8/dist-packages/polygraphy/util']
+[V] Model: /workspace/encoder-new.onnx
+[V] Loaded Module: polygraphy         | Version: 0.35.2 | Path: ['/usr/local/lib/python3.8/dist-packages/polygraphy']
+[V] Loaded Module: tensorrt           | Version: 8.2.3.0 | Path: ['/usr/local/lib/python3.8/dist-packages/tensorrt']
+[I] Will generate inference input data according to provided TensorMetadata: {speech [shape=(64, 64, 80)],
+     speech_lengths [shape=(64,)]}
+[I] onnxrt-runner-N0-05/11/22-18:30:02  | Activating and starting inference
+[V] Loaded Module: onnxruntime        | Version: 1.10.0 | Path: ['/usr/local/lib/python3.8/dist-packages/onnxruntime']
