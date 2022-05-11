@@ -7,4 +7,4 @@ polygraphy run /workspace/encoder-new.onnx \
 --trt-opt-shapes speech:[64,64,80] speech_lengths:[64] \
 --trt-max-shapes speech:[256,256,80] speech_lengths:[256] \
 --input-shapes speech:[64,64,80] speech_lengths:[64] \
-> result-01.txt
+> log/polygraphy/test01.txt
